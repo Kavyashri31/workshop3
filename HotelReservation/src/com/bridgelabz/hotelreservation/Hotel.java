@@ -98,4 +98,10 @@ public class Hotel {
 		this.rating = rating;
 	}
 
+	@Override
+	public String toString() {
+		return "Hotel [name=" + name + ", rating=" + rating + ", customerType=" + customerType + ", regularWeekdayRate="
+				+ regularWeekdayRate + ", regularWeekendRate=" + regularWeekendRate + "]";
+	}
+
 }
